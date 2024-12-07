@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORM</title>
+</head>
+<body>
+
+<h1 id="title">Green Planet Campaign:</h1>
+<hr>
+<p id="description">
+<em>The <strong>Green Planet Campaign</strong> is a global initiative aimed at fostering environmental awareness and promoting sustainable practices. At its core, the campaign seeks to educate communities on the importance of preserving natural resources and reducing carbon footprints. It encourages individuals and organizations to take actionable steps, such as recycling, reducing waste, and conserving energy, to mitigate the adverse effects of climate change. Through various outreach programs, events, and collaborations with environmental groups, the Green Planet Campaign aspires to cultivate a sense of responsibility towards the Earth. By promoting green technologies and advocating for policies that protect natural ecosystems, this campaign aims to ensure a healthier, more sustainable future for generations to come. Together, we can make a difference—one green initiative at a time.</em></p>
+<hr>
+
+<fieldset>
+
+  <legend>Please Complete Your Profile:</legend>
+
+<form id="survey-form">
+  <label id="name-label" for="name">Name: <input id="name" type="text" placeholder="John Doe" required/></label>
+
+<label id="email-label" for="email">E-mail:<input id="email" type="email" placeholder="xyz@gmail.com" required/>
+</label>
+
+<label id="number-label" for="number">
+Phone Number:<input id="number" type="number" placeholder="9999999999" min="10" max="12" required/>
+
+<label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" placeholder="21" /></label>
+
+<label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        
+</legend>
+
+  <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" value="personal" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" value="business" /> Business</label>
+
+        
+
+        <label for="radio"> Are you an Indian citizen ?
+          <input type ="checkbox" value="yes">Yes
+          <input type="checkbox" value="no">No
+      
+        
+        <label for="dropdown">How did you hear about us?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Instagram</option>
+            <option value="2">Go Green YouTube Channel</option>
+            <option value="3">Events</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+
+        <label for="bio">Tell Us Something:
+          <textarea   rows="3" cols="30" placeholder="I like planting saplings..."></textarea>
+        </label>
+      
+     
+         <input id="submit" type="submit" value="submit" />
+         
+      </fieldset>
+      </form>
+</body>
+</html>
+
+
+    
+</body>
+</html>
